@@ -47,9 +47,11 @@ function Navbar() {
               {link.title}
             </a>
           ))}
+          <a href="#contact">
           <button className="inline-flex text-black border-2 py-2 px-6 border-teal-500 focus:outline-none hover:bg-teal-500 rounded-full text-lg">
             Contact
           </button>
+          </a>
         </nav>
 
         {/* Mobile Menu */}

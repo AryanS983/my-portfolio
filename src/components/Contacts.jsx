@@ -6,6 +6,7 @@ export default function Contact() {
     <section
       data-aos="fade-up"
       data-aos-delay="300"
+      id="contact"
       className="min-h-screen overflow-hidden flex items-center justify-center p-6 mt-10 relative"
     >
       <article className="shadow-lg rounded-lg flex flex-col md:flex-row max-w-4xl w-full relative">
