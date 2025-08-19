@@ -1,0 +1,62 @@
+<div className="min-h-screen flex flex-col" style={{ background: current.colors.background, color: current.colors.text }}>
+      
+      {/* Theme Switcher */}
+      <div className="p-4 flex gap-4 justify-center bg-gray-200">
+        {Object.keys(themes).map((t) => (
+          <button
+            key={t}
+            className={`px-4 py-2 rounded-lg font-semibold shadow ${
+              theme === t ? "bg-gray-800 text-white" : "bg-white text-gray-800"
+            }`}
+            onClick={() => setTheme(t)}
+          >
+            {themes[t].name}
+          </button>
+        ))}
+      </div>
+
+      {/* Hero Section */}
+      <section className={`${current.gradient} text-white py-20 text-center`}>
+        <h1 className="text-4xl font-bold mb-4">Aryan's Portfolio</h1>
+        <p className="text-lg">Frontend Developer | MERN Stack | DSA Enthusiast</p>
+      </section>
+
+      {/* Skills Section */}
+      <section className="p-8 text-center">
+        <h2 className="text-2xl font-bold mb-4">Skills</h2>
+        <div className="flex justify-center gap-6 flex-wrap">
+          <span className="px-4 py-2 rounded-lg" style={{ background: current.colors.secondary, color: current.colors.primary }}>React</span>
+          <span className="px-4 py-2 rounded-lg" style={{ background: current.colors.secondary, color: current.colors.primary }}>JavaScript</span>
+          <span className="px-4 py-2 rounded-lg" style={{ background: current.colors.secondary, color: current.colors.primary }}>Tailwind</span>
+          <span className="px-4 py-2 rounded-lg" style={{ background: current.colors.secondary, color: current.colors.primary }}>Node.js</span>
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section className="p-8">
+        <h2 className="text-2xl font-bold mb-4 text-center">Projects</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="p-4 rounded-lg shadow" style={{ background: current.colors.secondary, color: current.colors.primary }}>
+            <h3 className="font-semibold mb-2">Project 1</h3>
+            <p>A sample project showcasing MERN stack features.</p>
+            <a href="#" className="underline" style={{ color: current.colors.accent }}>GitHub Link</a>
+          </div>
+          <div className="p-4 rounded-lg shadow" style={{ background: current.colors.secondary, color: current.colors.primary }}>
+            <h3 className="font-semibold mb-2">Project 2</h3>
+            <p>An interactive frontend project built with React and Tailwind.</p>
+            <a href="#" className="underline" style={{ color: current.colors.accent }}>Live Demo</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Form */}
+      <section className="p-8 text-center">
+        <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
+        <form className="max-w-md mx-auto flex flex-col gap-4">
+          <input type="text" placeholder="Your Name" className="p-2 rounded border" />
+          <input type="email" placeholder="Your Email" className="p-2 rounded border" />
+          <textarea placeholder="Your Message" className="p-2 rounded border"></textarea>
+          <button type="button" className="px-4 py-2 rounded-lg text-white font-semibold" style={{ background: current.colors.accent }}>Send</button>
+        </form>
+      </section>
+    </div>
