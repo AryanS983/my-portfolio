@@ -24,7 +24,7 @@ function Hero() {
           </div>
           <header>
             <h1 className="text-4xl sm:text-4xl md:text-5xl font-bold mb-4 text-black mb6">
-              Hello, I'm <span className="text-[#008080]">Aryan</span>
+              Hello, I'm <span className="text-[#008080]">Aryan Kumar Shaw</span>
             </h1>
             <h2 className="text-xl sm:text-4xl md:text-2xl font-bold text-[#181818]">
                 Full Stack Developer
