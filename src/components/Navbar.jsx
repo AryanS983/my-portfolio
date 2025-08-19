@@ -74,13 +74,16 @@ function Navbar() {
             key={index}
             href={link.url}
             className="text-lg hover:text-gray-400"
+            onClick={() => setIsOpen(false)}
           >
             {link.title}
           </a>
         ))}
-        <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-teal-500 rounded-full text-lg">
+        <a href="#contact">
+        <button onClick={() => setIsOpen(false)} className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-teal-500 rounded-full text-lg">
           Contact
         </button>
+        </a>
       </div>
 
     
