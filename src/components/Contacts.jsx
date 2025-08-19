@@ -22,7 +22,7 @@ export default function Contact() {
         <section className="p-8 w-full md:w-1/2">
           <header className="mb-6">
             <h2 className="text-4xl font-bold text-center text-teal-500">
-              Contact Us
+              Contact Me
             </h2>
           </header>
           <form className="spce-y-4">
