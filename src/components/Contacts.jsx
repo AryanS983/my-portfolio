@@ -38,7 +38,7 @@ export default function Contact() {
                 name="name"
                 id="name"
                 placeholder="Your name"
-                className="w-full px-4 py-2 text-white bg-gray-900 rounded-lg focus:outline-none"
+                className="w-full px-4 py-2 text-white bg-gray-900/90 rounded-lg focus:outline-none"
               />
             </div>
             <div>
@@ -53,7 +53,7 @@ export default function Contact() {
                 name="email"
                 id="email"
                 placeholder="Your email"
-                className="w-full px-4 py-2 text-white bg-gray-900 rounded-lg focus:outline-none"
+                className="w-full px-4 py-2 text-white bg-gray-900/90 rounded-lg focus:outline-none"
               />
             </div>
             <div>
@@ -67,10 +67,10 @@ export default function Contact() {
                 name="message"
                 id="message"
                 placeholder="Your message"
-                className="w-full px-4 py-2 text-white bg-gray-900 rounded-lg focus:outline-none"
+                className="w-full px-4 py-2 text-white bg-gray-900/90 rounded-lg focus:outline-none"
               ></textarea>
             </div>
-            <button className="w-full text-black border-2 py-2 px-6 focus:outline-none hover:bg-teal-400 hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-lg">
+            <button className="w-full text-black border-1 border-teal-400 py-2 px-6 mt-3 focus:outline-none hover:bg-teal-400 hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-lg hover:text-white">
               Send Message
             </button>
           </form>
