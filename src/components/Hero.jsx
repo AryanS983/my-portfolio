@@ -35,13 +35,13 @@ function Hero() {
           </p>
 
           <div className="flex items-center space-x-4 md-6 px-5">
-            <a href="#">
+            <a href="http://www.linkedin.com/in/aryan-kumar-shaw-tmsl">
                 <FaLinkedin className="h-6 w-6" />
             </a>
-            <a href="#">
+            <a href="https://github.com/AryanS983">
                 <FaGithub className="h-6 w-6" />
             </a>
-            <a href="#">
+            <a href="https://x.com/AryanS983">
                 <FaSquareXTwitter className="h-6 w-6" />
             </a>
           </div>
