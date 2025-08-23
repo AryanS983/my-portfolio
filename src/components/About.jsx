@@ -28,11 +28,11 @@ function About() {
                 </header>
                 
                 <p className="text-base sm:text-lg md:text-xl text-black mb-6 sm:mb-8 leading-relaxed">
-                    I'm a Computer Science and Business Systems undergraduate passionate about DSA and full-stack development. Skilled in the MERN stack, I've built projects like Ashok Vatika and a business portfolio hosted on AWS. A Smart India Hackathon finalist, I enjoy solving problems, building scalable web apps, and continuously learning. Outside coding, I'm into music and gaming, which fuel my creativity.
+                    I'm a Computer Science and Business Systems undergraduate passionate about DSA and full-stack development. Skilled in the MERN stack, I've built projects like Ashok Vatika and a business portfolio. A Smart Bengal Hackathon finalist, I enjoy solving problems, building scalable web apps, and continuously learning. Outside coding, I'm into music and gaming, which fuel my creativity.
                 </p>
                 
                 <footer>
-                    <button className="inline-flex text-teal-400 border-2 py-2 px-4 sm:px-6 focus:outline-none hover:bg-teal-400 hover:text-white hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-sm sm:text-lg">
+                    <button className="inline-flex text-teal-400 border-2 py-2 px-4 sm:px-6 focus:outline-none hover:bg-teal-400 hover:text-white hover:shadow-[0_0_40px_rgba(0, 128, 128 ,0.7)] rounded-full text-sm sm:text-lg">
                     Learn More
                     </button>
                 </footer>
