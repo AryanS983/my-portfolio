@@ -32,7 +32,7 @@ function About() {
                 </p>
                 
                 <footer>
-                    <button className="inline-flex text-teal-400 border-2 py-2 px-4 sm:px-6 focus:outline-none hover:bg-teal-400 hover:text-white hover:shadow-[0_0_40px_rgba(0, 128, 128 ,0.7)] rounded-full text-sm sm:text-lg">
+                    <button className="inline-flex text-teal-400 border-2 py-2 px-4 sm:px-6 focus:outline-none hover:bg-teal-400 hover:text-white hover:shadow-[0_0_40px_rgba(0,128,128,0.7)] hover:border-teal-400 rounded-full text-sm sm:text-lg">
                     Learn More
                     </button>
                 </footer>
