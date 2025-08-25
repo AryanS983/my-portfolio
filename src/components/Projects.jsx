@@ -1,6 +1,7 @@
 import React from "react";
 import project1 from "/project1.png";
 import project2 from "/project2.png";
+import project3 from "/project3.png";
 
 const ProjectCard = ({ image, title, description, link, repo }) => {
   return (
@@ -63,6 +64,14 @@ export default function Projects() {
         "Interactive 3D herbal exploration app using Three.js with features like search, bookmark, and Virtual Tours. Deployed on Netlify as part of Smart India Hackathon.",
       link: "https://ashokvatika-binarybits.netlify.app/",
       repo: "https://github.com/AryanS983/Ashok-Vatika",
+    },
+    {
+      image: project3,
+      title: "Portfolio Website",
+      description:
+        "Q-Stack AI is a full-stack interview prep platform that generates AI-powered questions and explanations, with secure user authentication, session management, and a responsive React interface. Built using Node.js, Express, MongoDB, and integrated with Google GenAI, it’s deployed on Vercel (frontend) and Render (backend).",
+      link: "https://aryan-kumar-shaw.vercel.app/",
+      repo: "https://github.com/AryanS983/my-portfolio",
     },
   ];
   return (
