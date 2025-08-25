@@ -67,11 +67,11 @@ export default function Projects() {
     },
     {
       image: project3,
-      title: "Portfolio Website",
+      title: "Q-Stack AI",
       description:
         "Q-Stack AI is a full-stack interview prep platform that generates AI-powered questions and explanations, with secure user authentication, session management, and a responsive React interface. Built using Node.js, Express, MongoDB, and integrated with Google GenAI, it’s deployed on Vercel (frontend) and Render (backend).",
-      link: "https://aryan-kumar-shaw.vercel.app/",
-      repo: "https://github.com/AryanS983/my-portfolio",
+      link: "https://q-stack-ai.vercel.app/",
+      repo: "https://github.com/AryanS983/Q-Stack-AI-main",
     },
   ];
   return (
